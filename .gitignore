@@ -1,0 +1,5 @@
+vendor/
+.well-known/
+api/
+.user.ini
+.tar.gz

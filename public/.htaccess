@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/index\.php
+RewriteCond %{REQUEST_FILE} !-d
+RewriteCond %{REQUEST_FILE} !-f
+RewriteRule ^([a-zA-Z0-9/]+)$ index.php?url=$1 [QSA]
+#RewriteRule ^([a-zA-Z0-9/]+)$ index.php?url=$1 [L]

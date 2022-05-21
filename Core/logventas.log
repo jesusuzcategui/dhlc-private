@@ -1,0 +1,203 @@
+[Mon, 23 Dec 2019 15:41:46 -0300] - Ingresar al sistema
+[Mon, 23 Dec 2019 15:43:33 -0300] - Ingresar al sistema
+[Mon, 23 Dec 2019 15:43:59 -0300] - Ingresar al sistema
+[Fecha] = Mon, 23 Dec 2019 20:46:49 -0300
+[Webpay ResponseCode] = -2
+[URL] = /home/retorno
+[Descripcion] = 
+---------------------------------------------------------------------------------
+[Fecha] = Mon, 23 Dec 2019 20:46:50 -0300
+[Webpay ResponseCode] = 
+[URL] = /home/finish
+[Descripcion] = 
+---------------------------------------------------------------------------------
+[Fecha] = Mon, 23 Dec 2019 21:44:35 -0300
+[Webpay ResponseCode] = 
+[URL] = /home/retorno
+[Descripcion] = Error conectando a Webpay (Verificar que la informaci&oacute;n del certificado sea correcta)
+---------------------------------------------------------------------------------
+[Fecha] = Mon, 23 Dec 2019 21:49:40 -0300
+[Webpay ResponseCode] = -1
+[URL] = /home/retorno
+[Descripcion] = 
+---------------------------------------------------------------------------------
+[Fecha] = Mon, 23 Dec 2019 21:49:41 -0300
+[Webpay ResponseCode] = 
+[URL] = /home/finish
+[Descripcion] = 
+---------------------------------------------------------------------------------
+[Fecha] = Mon, 23 Dec 2019 22:05:06 -0300
+[Webpay ResponseCode] = 0
+[URL] = /home/retorno
+[Descripcion] = 
+---------------------------------------------------------------------------------
+[Fecha] = Mon, 23 Dec 2019 22:05:17 -0300
+[Webpay ResponseCode] = 0
+[URL] = /home/finish
+[Descripcion] = 
+---------------------------------------------------------------------------------
+[Fecha] = Mon, 23 Dec 2019 22:32:46 -0300
+[Webpay ResponseCode] = 
+[URL] = /home/finish
+[Descripcion] = 
+---------------------------------------------------------------------------------
+[Fecha] = Mon, 23 Dec 2019 23:26:50 -0300
+[Webpay ResponseCode] = 0
+[URL] = /home/retorno
+[Descripcion] = Orden: 666270453
+---------------------------------------------------------------------------------
+[Fecha] = Mon, 23 Dec 2019 23:26:51 -0300
+[Webpay ResponseCode] = 0
+[URL] = /home/finish
+[Descripcion] = Orden: 
+---------------------------------------------------------------------------------
+[Fecha] = Tue, 24 Dec 2019 00:09:04 -0300
+[Webpay ResponseCode] = 
+[URL] = /home/finish
+[Descripcion] = Orden: 43720933
+---------------------------------------------------------------------------------
+[Tue, 24 Dec 2019 00:25:23 -0300] -  - Transaccion Exitosa finish de  Compra:  782877332
+[Tue, 24 Dec 2019 00:39:10 -0300] -  - Transaccion Exitosa finish de  Compra:  105028781
+[Tue, 24 Dec 2019 00:46:34 -0300] -  - Transaccion Exitosa finish de  Compra:  356884857
+[Tue, 24 Dec 2019 00:55:46 -0300] -  - Transaccion Exitosa finish de  Compra:  966394685
+[Tue, 24 Dec 2019 01:40:37 -0300] -  - Transaccion Exitosa finish de  Compra:  617188593
+[Tue, 24 Dec 2019 01:45:36 -0300] -  - Transaccion Exitosa finish de  Compra:  850434391
+[Tue, 24 Dec 2019 01:47:50 -0300] - 0 - Transaccion Exitosareturn de  Compra:  922814742
+[Tue, 24 Dec 2019 01:48:01 -0300] - 0 - Transaccion Exitosa finish de  Compra:  922814742
+[Tue, 24 Dec 2019 02:18:57 -0300] - inicio de transaccion - id de tarjeta508orden webpay333281977correo de clienteyilberleoneltri17@gmail.com
+[Tue, 24 Dec 2019 02:23:45 -0300] -  - Transaccion Exitosa finish de  Compra:  333281977
+[Tue, 24 Dec 2019 02:40:28 -0300] -  - Transaccion Exitosa finish de  Compra:  333281977
+[Tue, 24 Dec 2019 02:41:02 -0300] - inicio de transaccion - id de tarjeta508orden webpay167945495correo de clienteyilberleoneltri17@gmail.com
+[Tue, 24 Dec 2019 02:42:18 -0300] - inicio de transaccion - id de tarjeta512orden webpay977593193correo de clienteyilberleoneltri17@gmail.com
+[Tue, 24 Dec 2019 02:43:32 -0300] - -2 - Transacción debe reintentarse.return de  Compra:  977593193
+[Tue, 24 Dec 2019 02:43:32 -0300] - -2 - Transacción debe reintentarse. finish de  Compra:  977593193
+[Tue, 24 Dec 2019 02:44:21 -0300] - inicio de transaccion - id de tarjeta512orden webpay818965976correo de clienteyilberleoneltri17@gmail.com
+[Tue, 24 Dec 2019 02:46:35 -0300] -  - Transaccion Exitosa finish de  Compra:  818965976
+[Tue, 24 Dec 2019 06:01:49 -0300] - inicio de transaccion - id de tarjeta601orden webpay163570754correo de clientedanny.cardenas.84@gmail.com
+[Tue, 24 Dec 2019 07:00:36 -0300] - inicio de transaccion - id de tarjeta551orden webpay913655517correo de clientenosorios@gmail.com
+[Tue, 24 Dec 2019 09:06:02 -0300] - inicio de transaccion - id de tarjeta512orden webpay574459254correo de clienteIcta2.ic@gmail.com
+[Tue, 24 Dec 2019 09:09:20 -0300] -  - Transaccion Exitosa finish de  Compra:  574459254
+[Tue, 24 Dec 2019 09:09:37 -0300] - inicio de transaccion - id de tarjeta512orden webpay358360444correo de clienteIcta2.ic@gmail.com
+[Tue, 24 Dec 2019 09:11:54 -0300] - 0 - Transaccion Exitosareturn de  Compra:  358360444
+[Tue, 24 Dec 2019 09:12:10 -0300] - 0 - Transaccion Exitosa finish de  Compra:  358360444
+[Tue, 24 Dec 2019 09:14:31 -0300] - inicio de transaccion - id de tarjeta515orden webpay492058278correo de clienteYetssikacrodriguez@gmail.com
+[Tue, 24 Dec 2019 09:15:56 -0300] -  - Transaccion Exitosa finish de  Compra:  492058278
+[Tue, 24 Dec 2019 09:16:25 -0300] - inicio de transaccion - id de tarjeta515orden webpay31370789correo de clienteYetssikacrodriguez@gmail.com
+[Tue, 24 Dec 2019 09:24:11 -0300] - inicio de transaccion - id de tarjeta518orden webpay66921592correo de clientealejandroacosta796@gmail.com
+[Tue, 24 Dec 2019 09:24:51 -0300] -  - Transaccion Exitosa finish de  Compra:  66921592
+[Tue, 24 Dec 2019 09:32:43 -0300] - inicio de transaccion - id de tarjeta602orden webpay313452757correo de clienteyounlininoska@gmail.com
+[Tue, 24 Dec 2019 09:34:39 -0300] - 0 - Transaccion Exitosareturn de  Compra:  313452757
+[Tue, 24 Dec 2019 09:34:53 -0300] - 0 - Transaccion Exitosa finish de  Compra:  313452757
+[Tue, 24 Dec 2019 09:34:56 -0300] - 0 - Transaccion Exitosa finish de  Compra:  313452757
+[Tue, 24 Dec 2019 11:12:37 -0300] - inicio de transaccion - id de tarjeta515orden webpay859266750correo de clienteleonardoleon596@gmail.com
+[Tue, 24 Dec 2019 12:04:33 -0300] - inicio de transaccion - id de tarjeta518orden webpay439386430correo de clienteemilyestradaf@gmail.com
+[Tue, 24 Dec 2019 12:05:24 -0300] -  - Transaccion Exitosa finish de  Compra:  439386430
+[Tue, 24 Dec 2019 12:05:45 -0300] - inicio de transaccion - id de tarjeta518orden webpay791845115correo de clienteemilyestradaf@gmail.com
+[Tue, 24 Dec 2019 12:06:20 -0300] -  - Transaccion Exitosa finish de  Compra:  791845115
+[Tue, 24 Dec 2019 12:06:34 -0300] - inicio de transaccion - id de tarjeta518orden webpay588833025correo de clienteemilyestradaf@gmail.com
+[Tue, 24 Dec 2019 12:07:26 -0300] - -1 - Rechazo de transacción.return de  Compra:  588833025
+[Tue, 24 Dec 2019 12:07:26 -0300] - -1 - Rechazo de transacción. finish de  Compra:  588833025
+[Tue, 24 Dec 2019 12:09:44 -0300] - inicio de transaccion - id de tarjeta518orden webpay763162407correo de clienteemilyestradaf@gmail.com
+[Tue, 24 Dec 2019 12:10:12 -0300] - -2 - Transacción debe reintentarse.return de  Compra:  763162407
+[Tue, 24 Dec 2019 12:10:13 -0300] - -2 - Transacción debe reintentarse. finish de  Compra:  763162407
+[Tue, 24 Dec 2019 12:10:27 -0300] - inicio de transaccion - id de tarjeta518orden webpay72937056correo de clienteemilyestradaf@gmail.com
+[Tue, 24 Dec 2019 12:11:39 -0300] - 0 - Transaccion Exitosareturn de  Compra:  72937056
+[Tue, 24 Dec 2019 12:11:56 -0300] - 0 - Transaccion Exitosa finish de  Compra:  72937056
+[Tue, 24 Dec 2019 13:18:01 -0300] - inicio de transaccion - id de tarjeta551orden webpay737456905correo de clientenosorios@gmail.com
+[Tue, 24 Dec 2019 13:19:27 -0300] - 0 - Transaccion Exitosareturn de  Compra:  737456905
+[Tue, 24 Dec 2019 13:19:42 -0300] - 0 - Transaccion Exitosa finish de  Compra:  737456905
+[Tue, 24 Dec 2019 14:24:18 -0300] - inicio de transaccion - id de tarjeta521orden webpay32530093correo de clientereylander.wgd@gmail.com
+[Tue, 24 Dec 2019 14:24:29 -0300] -  - Transaccion Exitosa finish de  Compra:  32530093
+[Tue, 24 Dec 2019 15:07:16 -0300] - inicio de transaccion - id de tarjeta521orden webpay118537504correo de clientegatoalarcon@hotmail.com
+[Tue, 24 Dec 2019 16:03:22 -0300] - inicio de transaccion - id de tarjeta554orden webpay748843895correo de clientegabrielaandrea0912@gmail.com
+[Tue, 24 Dec 2019 16:04:32 -0300] - inicio de transaccion - id de tarjeta560orden webpay192999899correo de clientegabrielaandrea0912@gmail.com
+[Tue, 24 Dec 2019 16:12:20 -0300] - inicio de transaccion - id de tarjeta564orden webpay81823790correo de clientegabrielaandrea0912@gmail.com
+[Tue, 24 Dec 2019 17:24:40 -0300] - inicio de transaccion - id de tarjeta525orden webpay868240762correo de clientestellatorcat@gmail.com
+[Tue, 24 Dec 2019 17:27:10 -0300] - inicio de transaccion - id de tarjeta526orden webpay666901418correo de clientestellatorcat@gmail.com
+[Tue, 24 Dec 2019 17:32:40 -0300] - inicio de transaccion - id de tarjeta565orden webpay239597383correo de clientedianabravosilva@gmail.com
+[Tue, 24 Dec 2019 18:13:37 -0300] - inicio de transaccion - id de tarjeta527orden webpay981537778correo de clientestellatorcat@gmail.com
+[Tue, 24 Dec 2019 18:15:44 -0300] - inicio de transaccion - id de tarjeta601orden webpay28314077correo de clientevalentinaicz@gmail.com
+[Tue, 24 Dec 2019 18:56:38 -0300] - inicio de transaccion - id de tarjeta566orden webpay690473082correo de clientevicentezozzaro65@gmail.com
+[Tue, 24 Dec 2019 18:58:24 -0300] - 0 - Transaccion Exitosareturn de  Compra:  690473082
+[Tue, 24 Dec 2019 18:58:40 -0300] - 0 - Transaccion Exitosa finish de  Compra:  690473082
+[Tue, 24 Dec 2019 21:49:25 -0300] - inicio de transaccion - id de tarjeta554orden webpay574550038correo de clientedianabravosilva@gmail.com
+[Tue, 24 Dec 2019 21:50:34 -0300] - 0 - Transaccion Exitosareturn de  Compra:  574550038
+[Tue, 24 Dec 2019 21:50:49 -0300] - 0 - Transaccion Exitosa finish de  Compra:  574550038
+[Tue, 24 Dec 2019 22:21:27 -0300] - inicio de transaccion - id de tarjeta601orden webpay431043420correo de clientejohana.k.mendozaa@gmail.com
+[Tue, 24 Dec 2019 22:24:56 -0300] - 0 - Transaccion Exitosareturn de  Compra:  431043420
+[Tue, 24 Dec 2019 22:25:12 -0300] - 0 - Transaccion Exitosa finish de  Compra:  431043420
+[Tue, 24 Dec 2019 23:35:56 -0300] - inicio de transaccion - id de tarjeta560orden webpay992065540correo de clienteedgarhpi@gmail.com
+[Tue, 24 Dec 2019 23:37:32 -0300] - 0 - Transaccion Exitosareturn de  Compra:  992065540
+[Tue, 24 Dec 2019 23:37:46 -0300] - 0 - Transaccion Exitosa finish de  Compra:  992065540
+[Tue, 24 Dec 2019 23:37:50 -0300] - 0 - Transaccion Exitosa finish de  Compra:  992065540
+[Wed, 25 Dec 2019 09:39:23 -0300] - inicio de transaccion - id de tarjeta560orden webpay413864601correo de clientegraterol.saymar@gmail.com
+[Wed, 25 Dec 2019 09:42:16 -0300] - 0 - Transaccion Exitosareturn de  Compra:  413864601
+[Wed, 25 Dec 2019 09:44:20 -0300] - NULL - Error conectando a Webpay (Verificar que la informaci&oacute;n del certificado sea correcta)
+[Wed, 25 Dec 2019 10:01:13 -0300] - inicio de transaccion - id de tarjeta564orden webpay913172981correo de clientedanny.cardenas.84@gmail.com
+[Wed, 25 Dec 2019 10:03:46 -0300] - 0 - Transaccion Exitosareturn de  Compra:  913172981
+[Wed, 25 Dec 2019 10:03:58 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:02 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:06 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:10 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:13 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:17 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:21 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:24 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:28 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:31 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:35 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:48 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:52 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:56 -0300] - 0 - Transaccion Exitosa finish de  Compra:  913172981
+[Wed, 25 Dec 2019 10:04:56 -0300] - NULL - Error conectando a Webpay (Verificar que la informaci&oacute;n del certificado sea correcta)
+[Wed, 25 Dec 2019 13:51:21 -0300] - inicio de transaccion - id de tarjeta515orden webpay872392104correo de clientereylander.wgd@gmail.com
+[Wed, 25 Dec 2019 21:43:23 -0300] - inicio de transaccion - id de tarjeta521orden webpay489981682correo de clientemagazd8400@gmail.com
+[Thu, 26 Dec 2019 11:38:16 -0300] - inicio de transaccion - id de tarjeta602orden webpay994989371correo de clienteela.1420@gmail.com
+[Thu, 26 Dec 2019 15:00:26 -0300] - inicio de transaccion - id de tarjeta603orden webpay244936360correo de clienteela.1420@gmail.com
+[Thu, 26 Dec 2019 15:01:24 -0300] - 0 - Transaccion Exitosareturn de  Compra:  244936360
+[Thu, 26 Dec 2019 15:01:39 -0300] - 0 - Transaccion Exitosa finish de  Compra:  244936360
+[Thu, 26 Dec 2019 16:31:28 -0300] - inicio de transaccion - id de tarjeta564orden webpay898366307correo de clienteleidyflores1608@gmail.com
+[Thu, 26 Dec 2019 16:32:56 -0300] - 0 - Transaccion Exitosareturn de  Compra:  898366307
+[Thu, 26 Dec 2019 16:33:11 -0300] - 0 - Transaccion Exitosa finish de  Compra:  898366307
+[Thu, 26 Dec 2019 17:31:45 -0300] - inicio de transaccion - id de tarjeta565orden webpay344413547correo de clienteisaias_bc@yahoo.com
+[Thu, 26 Dec 2019 17:49:21 -0300] - inicio de transaccion - id de tarjeta567orden webpay57619180correo de clientejfgm10@gmail.com
+[Thu, 26 Dec 2019 20:11:16 -0300] - inicio de transaccion - id de tarjeta525orden webpay812327931correo de clientestellatorcat@gmail.com
+[Thu, 26 Dec 2019 21:01:10 -0300] - inicio de transaccion - id de tarjeta526orden webpay581940701correo de clientehcordero1985@gmail.com
+[Thu, 26 Dec 2019 21:03:52 -0300] - inicio de transaccion - id de tarjeta527orden webpay327030682correo de clienteluancasil@gmail.com
+[Thu, 26 Dec 2019 21:06:02 -0300] - 0 - Transaccion Exitosareturn de  Compra:  327030682
+[Thu, 26 Dec 2019 21:06:18 -0300] - 0 - Transaccion Exitosa finish de  Compra:  327030682
+[Thu, 26 Dec 2019 22:09:29 -0300] - inicio de transaccion - id de tarjeta568orden webpay876346816correo de clientegiselanrc90@gmail.com
+[Thu, 26 Dec 2019 22:11:22 -0300] - 0 - Transaccion Exitosareturn de  Compra:  876346816
+[Thu, 26 Dec 2019 22:11:38 -0300] - 0 - Transaccion Exitosa finish de  Compra:  876346816
+[Fri, 27 Dec 2019 19:05:30 -0300] - inicio de transaccion - id de tarjeta569orden webpay292358984correo de clientetebsalcedo@gmail.com
+[Fri, 27 Dec 2019 19:07:02 -0300] - 0 - Transaccion Exitosareturn de  Compra:  292358984
+[Fri, 27 Dec 2019 19:07:17 -0300] - 0 - Transaccion Exitosa finish de  Compra:  292358984
+[Fri, 27 Dec 2019 19:07:21 -0300] - 0 - Transaccion Exitosa finish de  Compra:  292358984
+[Fri, 27 Dec 2019 19:08:33 -0300] - inicio de transaccion - id de tarjeta528orden webpay946043427correo de clientemagazd8400@gmail.com
+[Fri, 27 Dec 2019 19:08:43 -0300] - inicio de transaccion - id de tarjeta529orden webpay449235042correo de clientemagazd8400@gmail.com
+[Fri, 27 Dec 2019 19:10:57 -0300] - inicio de transaccion - id de tarjeta530orden webpay332552654correo de clientemagazd8400@gmail.com
+[Fri, 27 Dec 2019 19:12:02 -0300] - 0 - Transaccion Exitosareturn de  Compra:  332552654
+[Fri, 27 Dec 2019 19:12:17 -0300] - 0 - Transaccion Exitosa finish de  Compra:  332552654
+[Fri, 27 Dec 2019 20:19:07 -0300] - inicio de transaccion - id de tarjeta531orden webpay487842366correo de clientereinaldorauseop@gmail.com
+[Fri, 27 Dec 2019 20:20:37 -0300] - 0 - Transaccion Exitosareturn de  Compra:  487842366
+[Fri, 27 Dec 2019 20:20:52 -0300] - 0 - Transaccion Exitosa finish de  Compra:  487842366
+[Fri, 27 Dec 2019 21:45:32 -0300] - inicio de transaccion - id de tarjeta532orden webpay185327258correo de clienteluancasil@gmail.com
+[Fri, 27 Dec 2019 21:48:32 -0300] - 0 - Transaccion Exitosareturn de  Compra:  185327258
+[Fri, 27 Dec 2019 21:48:47 -0300] - 0 - Transaccion Exitosa finish de  Compra:  185327258
+[Fri, 27 Dec 2019 21:49:25 -0300] - inicio de transaccion - id de tarjeta533orden webpay713941385correo de clienteYetssikacrodriguez@gmail.com
+[Fri, 27 Dec 2019 21:50:52 -0300] - 0 - Transaccion Exitosareturn de  Compra:  713941385
+[Fri, 27 Dec 2019 21:51:09 -0300] - 0 - Transaccion Exitosa finish de  Compra:  713941385
+[Sat, 28 Dec 2019 09:55:05 -0300] - inicio de transaccion - id de tarjeta534orden webpay385315803correo de clientelauigs363@gmail.com
+[Sat, 28 Dec 2019 10:20:29 -0300] - inicio de transaccion - id de tarjeta535orden webpay905698106correo de clientegrpf3445@gmail.com
+[Sat, 28 Dec 2019 17:19:02 -0300] - inicio de transaccion - id de tarjeta570orden webpay539429367correo de clienteyaneisisy@gmail.com
+[Sat, 28 Dec 2019 17:20:04 -0300] - inicio de transaccion - id de tarjeta571orden webpay571975289correo de clienteyaneisisy@gmail.com
+[Sat, 28 Dec 2019 17:21:22 -0300] - inicio de transaccion - id de tarjeta572orden webpay342583430correo de clienteyaneisisy@gmail.con
+[Sat, 28 Dec 2019 17:22:09 -0300] - inicio de transaccion - id de tarjeta573orden webpay505051833correo de clienteyaneisisy@gmail.com
+[Sat, 28 Dec 2019 17:28:48 -0300] - 0 - Transaccion Exitosareturn de  Compra:  505051833
+[Sat, 28 Dec 2019 17:29:01 -0300] - 0 - Transaccion Exitosa finish de  Compra:  505051833
+[Sat, 28 Dec 2019 18:16:59 -0300] - inicio de transaccion - id de tarjeta536orden webpay948189350correo de clientecarlosgarciasandoval85@gmail.com
+[Sat, 28 Dec 2019 18:52:13 -0300] - inicio de transaccion - id de tarjeta574orden webpay430369695correo de clientefiguerasrosanny@gmail.com
+[Sat, 28 Dec 2019 18:54:45 -0300] - inicio de transaccion - id de tarjeta575orden webpay518485295correo de clientefiguerasrosanny@gmail.com
+[Sat, 28 Dec 2019 19:33:50 -0300] - inicio de transaccion - id de tarjeta576orden webpay672588761correo de clientefiguerasrosanny@gmail.com
+[Sat, 28 Dec 2019 19:36:38 -0300] - 0 - Transaccion Exitosareturn de  Compra:  672588761
+[Sat, 28 Dec 2019 19:36:53 -0300] - 0 - Transaccion Exitosa finish de  Compra:  672588761

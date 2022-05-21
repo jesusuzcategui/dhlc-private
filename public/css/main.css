@@ -1,0 +1,169 @@
+body {
+    background-color: #f5f5f5;
+
+}
+
+/*=========================================================
+PRELOAD
+=========================================================*/
+#preload{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background:#3a3938;
+}
+#porcentajecarga{
+    position: absolute;
+    text-align:center;
+    width: 100%;
+    color:white;
+    top:72%;
+    font-size: 20px;
+    font-weight: 100;
+}
+#lineacarga{
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: 70%;
+    left: 0%;
+    background: white
+}
+#rellenocarga{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 0%;
+    background: black;
+}
+
+#estadocarga{
+    position: absolute;
+    background: url(../images/wifi.svg)no-repeat;
+    top:40%;
+    left:45%;
+   width: 800px;
+   height:800px;
+
+}
+
+
+
+
+#toast-container {
+    z-index: 9999999999999999 !important;
+}
+
+
+.m-b-end {
+    margin-block-end: 0 !important;
+}
+
+
+.bglogin:after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    display: block;
+
+    background-image: -webkit-radial-gradient(transparent, #fff );
+    filter: blur(.5px);
+}
+
+.logo-login {
+    width: 200px;
+    object-fit: cover;
+    margin: auto;
+    display: flex;
+}
+
+@media screen and (max-width: 960px){
+    .home {
+        height: auto !important;
+    }
+
+    .lModule {
+        color: #484848;
+        background: rgba(255, 255, 255, .8);
+        box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .lModule label {
+        color: #484848;
+    }
+
+    .lModule h3{
+        color: #484848;
+    }
+
+    .uk-margin-responsive {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .uk-navbar-item.uk-logo .logo_img {
+        width: 100px;
+    }
+}
+
+.tarjetaImg {
+    max-width: 400px;
+    width: 100%;
+}
+
+/*DATATABLE STYLE*/
+.rowTheme {
+  background: #073c4d;
+}
+
+.rowTheme > th {
+  color: white;
+  padding: 15px 0px;
+  vertical-align: middle;
+}
+
+.particles-js-canvas-el {
+  z-index: 80;
+  position: absolute;
+}
+
+.content-heading {
+  z-index: 85;
+}
+
+#particle-teater {
+  min-height: 100vh;
+  max-height: 100vh;
+  background: rgb(14,91,120);
+background: -moz-linear-gradient(90deg, rgba(14,91,120,1) 0%, rgba(91,83,142,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(14,91,120,1) 0%, rgba(91,83,142,1) 100%);
+background: linear-gradient(90deg, rgba(14,91,120,1) 0%, rgba(91,83,142,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e5b78",endColorstr="#5b538e",GradientType=1);
+}
+
+.home {
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.btn-whatsapp {
+        display:block;
+        width:70px;
+        height:70px;
+        color#fff;
+        position: fixed;
+        right:20px;
+        bottom:20px;
+        border-radius:50%;
+        line-height:80px;
+        text-align:center;
+        z-index:999;
+}
+
