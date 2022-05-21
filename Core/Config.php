@@ -33,10 +33,10 @@ class Config
 
 	const AppDbRemote   = [
 
-		"HOST" => "localhost",
-		"USER" => "tarjetas_sistemalocutorios",
-		"PASS" => "LoCard1298_56",
-		"NAME" => "tarjetas_sistemalocutorios",
+		"HOST" => "200.113.110.171",
+		"USER" => "comprapin_old_copy",
+		"PASS" => "MjkfmpD6wwdh4mYC",
+		"NAME" => "comprapin_old_copy",
 		"TYPE" => "mysql",
 		"PORT" => 3306
 

@@ -1,5 +1,13 @@
 {
+    "name": "uzcat/dhlc-private",
+    "authors": [
+        {
+            "name": "Jesus"
+        }
+    ],
     "require": {
-        "transbank/transbank-sdk": "^1.5"
+        "transbank/transbank-sdk": "1.7.3",
+        "dompdf/dompdf": "0.8.3",
+        "phpoffice/phpspreadsheet": "1.7.0"
     }
 }
