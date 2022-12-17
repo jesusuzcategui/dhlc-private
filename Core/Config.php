@@ -12,8 +12,8 @@ class Config
 
 	const AppUrl  = [
 		"dev"   => "https://comprapin.test/",
-		"web"   => "https://oldlc.tk/",
-		"sitio" => "https://oldlc.tk/"
+		"web"   => "https://production.oldlc.tk/",
+		"sitio" => "https://production.oldlc.tk/"
 	];
 
 	const EmailSender = [

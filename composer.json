@@ -1,5 +1,8 @@
 {
     "require": {
-        "transbank/transbank-sdk": "^1.5"
+        "dompdf/dompdf": "2.0.1",
+        "phpoffice/phpspreadsheet": "1.25.2",
+        "transbank/transbank-sdk": "1.5",
+        "firebase/php-jwt": "5.0.0"
     }
 }
