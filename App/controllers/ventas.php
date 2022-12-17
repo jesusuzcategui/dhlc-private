@@ -243,6 +243,10 @@ class ventas extends Controller
                           "estado"    => $venta['estado'],
                           "inicio"    => $venta['inicio'],
                           "final"     => $venta['fin'],
+                          "partner"   => (!empty($venta['partner'])) ? $venta['partner'] : 'N/A',
+                          "cupon"     => (!empty($venta['cupon'])) ? $venta['cupon'] : 'N/A',
+                          "monto_venta" => (!empty($venta['monto_venta'])) ? $venta['monto_venta'] : 'N/A',
+                          "cupon_porcentaje" => (!empty($venta['cupon_porcentaje'])) ? $venta['cupon_porcentaje'] : 'N/A',
                           "accion"    => '<button class="uk-button uk-button-default" type="button"><span uk-icon="icon: more-vertical"></span></button>
                                           <div uk-dropdown="mode: click">
                                               <ul class="uk-nav uk-dropdown-nav">

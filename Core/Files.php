@@ -7,9 +7,9 @@ class Files
     private $source_upload;
     private $path_for_date;
     public $response = [];
-    private $aviable_file = ['jpg', 'jpeg', 'png', 'gif','pdf','txt','html','docx','doc'];
+    private $aviable_file = ['webp', 'jpg', 'jpeg', 'png', 'gif','pdf','txt','html','docx','doc'];
     private $ContentFileIndex = "<h1>404</h1>\n<p>Error Forbiden</p>";
-    private $FileSizeMaximun = 2045952;
+    private $FileSizeMaximun = 5242880;
 
     public function __construct($path_end)
     {

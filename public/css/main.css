@@ -167,3 +167,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e5b78",endCo
         z-index:999;
 }
 
+.sale_wmsg {
+    word-break: break-all;
+}
+
+#modal-sales-details .uk-offcanvas-bar {
+    width: 95% !important;
+}

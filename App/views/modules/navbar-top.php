@@ -103,6 +103,12 @@
                                 <a href="./dashboard/banners">Administrar banners</a>
                             </li>
                             <li  class=" nav-side-item">
+                                <a href="./partner">Asociados</a>
+                            </li>
+                            <li  class=" nav-side-item">
+                                <a href="./cupones">Cupones</a>
+                            </li>
+                            <li  class=" nav-side-item">
                                 <a href="./dashboard/clientsnosales">Consultar no comprantes</a>
                             </li>
                             <li  class=" nav-side-item">

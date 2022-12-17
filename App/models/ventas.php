@@ -174,14 +174,15 @@ class ventas {
 
       //Obtención de registros.
 
-      $q = "select vf.id, vf.correo, vf.correo_cliente, us.email,vf.telefono, vf.inicio, vf.fin, tar.cod_targ,tar.pin, mn.monto as precio,vf.id_operacion,vf.fecha, es.id estado_id, es.estado FROM ventas_frecuentes as vf inner join usuarios as us on id_usu=us.id inner join targetas as tar on id_targeta=tar.id inner join estado_targ as es on vf.estado=es.id inner join monto as mn on tar.precio=mn.id where vf.id_estatus!=2 " . $sqlQuery . $sqlState . $sqlPrice . $sqlDate . " ORDER BY " .$columnIndex . " " . $columnSort . $limit;
+      $q = "select vf.id, vf.correo, vf.correo_cliente, vf.cupon, vf.monto_venta, vf.cupon_porcentaje, us.email,vf.telefono, vf.inicio, vf.fin, tar.cod_targ,tar.pin, mn.monto as precio,vf.id_operacion,vf.fecha, es.id estado_id, es.estado, par.nombre as partner FROM ventas_frecuentes as vf inner join usuarios as us on id_usu=us.id inner join targetas as tar on id_targeta=tar.id inner join estado_targ as es on vf.estado=es.id inner join monto as mn on tar.precio=mn.id left join partner as par on par.serial = vf.partner where vf.id_estatus!=2 " . $sqlQuery . $sqlState . $sqlPrice . $sqlDate . " ORDER BY " .$columnIndex . " " . $columnSort . $limit;
 
       $ventasR = $this->db->query($q)->fetchAll(PDO::FETCH_ASSOC);
 
       return array(
         "total"   => $cantTotalSF,
         "totalD"  => $cantTotalCF,
-        "data"    => $ventasR
+        "data"    => $ventasR,
+        "query"   => $q
       );
     }
 
@@ -373,7 +374,7 @@ ORDER BY vf.correo_cliente';
     }
     
     public function getClientsFromNotSales($init, $ended){
-        $query = "SELECT DISTINCT LOWER(correo_cliente) correo, telefono from ventas_frecuentes where correo_cliente not in (select correo_cliente from ventas_frecuentes where DATE(inicio) BETWEEN '".$init."' AND '".$ended."')";
+        $query = "SELECT DISTINCT LOWER(correo_cliente) correo, telefono from ventas_frecuentes where correo_cliente not in (select correo_cliente from ventas_frecuentes where DATE(inicio) BETWEEN '".$init."' AND '".$ended."') GROUP BY inicio";
         
         $return = $this->db->query($query)->fetchAll(PDO::FETCH_OBJ);
         

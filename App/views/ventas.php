@@ -77,6 +77,10 @@
           <th>ESTADO</th>
           <th>INICIO</th>
           <th>FIN</th>
+          <th>CUPON</th>
+          <th>PRECIO VENTA</th>
+          <th>% CUPON</th>
+          <th>ASOCIADO</th>
           <th>&nbsp;</th>
         </tr>
       </thead>
@@ -134,7 +138,7 @@
 
 <!-- modals -->
 
-<div id="modal-sales-details" class="uk-flex-top" style="z-index: 1030 !important" uk-modal>
+<!--<div id="modal-sales-details" class="uk-flex-top" style="z-index: 1030 !important" uk-modal>
     <div class="uk-modal-dialog uk-width-1-1 uk-modal-body uk-margin-auto-vertical">
 
         <button class="uk-modal-close-default" type="button" uk-close></button>
@@ -180,7 +184,7 @@
         </table>
 
     </div>
-</div>
+</div>-->
 
 
 <div id="venta-modal" class="uk-modal-full" style="z-index: 1030 !important" uk-modal>
@@ -212,6 +216,55 @@
           </div>
         </form>
 
+    </div>
+</div>
+
+<div id="modal-sales-details" uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <h3>Detalle de compra</h3>
+
+        <table class="uk-table uk-table-small uk-width-1-1">
+          <tbody>
+            <tr>
+              <td colspan="6">
+                <div class="uk-alert-primary" uk-alert>
+                    <h3>COMPRA <span class="uk-text-uppercase sale_estado"></span></h3>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="1"><strong>N° de compra:</strong></td>
+              <td colspan="1"><span class="sale_order"></span></td>
+              <td colspan="1"><strong>Fecha:</strong></td>
+              <td colspan="1"><span class="sale_date"></span></td>
+              <td colspan="1"><strong>F. final:</strong></td>
+              <td colspan="1"><span class="sale_datelast"></span></td>
+            </tr>
+            <tr>
+              <td colspan="1"><strong>Cliente:</strong></td>
+              <td colspan="2"><span class="sale_email"></span></td>
+              <td colspan="1"><strong>Telf.:</strong></td>
+              <td colspan="2"><span class="sale_telf"></span></td>
+            </tr>
+            <tr>
+              <td colspan="1"><strong>Pin:</strong></td>
+              <td colspan="1"><span class="sale_pin"></span></td>
+              <td colspan="1"><strong>Pin ID:</strong></td>
+              <td colspan="1"><span class="sale_pinid"></span></td>
+              <td colspan="1"><strong>Precio:</strong></td>
+              <td colspan="1"><span class="sale_precio"></span></td>
+            </tr>
+            <tr>
+              <td colspan="1"><strong>Tipo de venta:</strong></td>
+              <td colspan="2"><span class="sale_type"></span></td>
+              <td colspan="1"><strong>Mensaje webpay:</strong></td>
+              <td colspan="2"><span class="sale_wmsg"></span></td>
+            </tr>
+          </tbody>
+        </table>
     </div>
 </div>
 
