@@ -373,7 +373,7 @@ ORDER BY vf.correo_cliente';
     }
     
     public function getClientsFromNotSales($init, $ended){
-        $query = "SELECT DISTINCT LOWER(correo_cliente) correo, telefono from ventas_frecuentes where correo_cliente not in (select correo_cliente from ventas_frecuentes where DATE(inicio) BETWEEN '".$init."' AND '".$ended."')";
+        $query = "SELECT DISTINCT LOWER(correo_cliente) correo, telefono from ventas_frecuentes where correo_cliente not in (select correo_cliente from ventas_frecuentes where DATE(inicio) BETWEEN '".$init."' AND '".$ended."') GROUP BY inicio";
         
         $return = $this->db->query($query)->fetchAll(PDO::FETCH_OBJ);
         

@@ -21,12 +21,15 @@ class dashboard extends Controller
   private $files;
   private $model;
   private $excel;
+  private $montoModel;
 
   function __construct()
   {
     $this->files = new Files('upload/'); 
     $this->modVentas = Model::loadModel('ventas');
     $this->model = Model::loadModel("dashboard");
+    $this->montoModel = Model::loadModel('montos');
+
     $this->verifySession('');
     $this->excel     = new Spreadsheet;
   }
@@ -47,6 +50,13 @@ class dashboard extends Controller
   {
     View::render(__CLASS__, 'bannersetting', 'Administrar Banners');
   }
+  
+  function montos()
+  {
+    View::render(__CLASS__, 'montos', 'Administrar montos');
+  }
+
+
   
   function clientsnosales(){
     View::render(__CLASS__, 'clientsnotsales', 'Administrar Clientes no compradores');  
@@ -212,5 +222,34 @@ class dashboard extends Controller
 
     View::set('contenido', $contentLog);
     View::render(__CLASS__, 'systemlog', 'Log de acciones webpay');
+  }
+
+  /**
+   * Montos
+   * **/
+
+   function loadingPrice(){
+     $priceJson = $this->montoModel->loadPrice();
+     echo json_encode($priceJson);
+   }
+
+   function uploadImageMonto(){
+    if(!empty($_FILES['banner'])){
+      $image = $this->files->verify($_FILES['banner']);
+      $link  = $this->files->send($image);
+      $id = $_POST['id'];
+      $image_field = $_POST['field'];
+
+      if( is_string($link) ){
+        $response = $this->montoModel->uploadImage($id, $image_field, $link);
+        http_response_code(200);
+        echo json_encode(["link" => $link, "insert" => $response]);
+        exit;
+      } else {
+        http_response_code(400);
+        echo json_encode(["link" => null]);
+        exit;
+      }
+    }
   }
 }

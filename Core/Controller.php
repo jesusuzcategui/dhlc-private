@@ -71,6 +71,11 @@ class Controller
     }
   }
 
+  public function response($data, $http = 200){
+    http_response_code($http);
+    echo json_encode($data);
+  }
+
 
   public function verifyTimePay()
   {

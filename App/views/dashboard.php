@@ -31,8 +31,8 @@
 	<div class="uk-child-width-1-3@l uk-margin" uk-grid>
         <div>
             <div class="uk-card uk-card-body uk-card-default uk-padding-small uk-text-center">
-                <h3 class="uk-card-title uk-text-center"></h3>
-				<a href="./dashboard/remarketing" class="uk-button uk-button-primary">MARKETING</a>
+                <h3 class="uk-card-title uk-text-center">MARKETING</h3>
+				<a href="./dashboard/remarketing" class="uk-button uk-button-primary">ACCEDER</a>
             </div>
         </div>
 		
@@ -40,6 +40,13 @@
             <div class="uk-card uk-card-body uk-card-default uk-padding-small uk-text-center">
                 <h3 class="uk-card-title uk-text-center">ARCHIVO DE LOG</h3>
 				<a href="./dashboard/systemlog" class="uk-button uk-button-primary">ACCEDER</a>
+            </div>
+        </div>
+
+        <div>
+            <div class="uk-card uk-card-body uk-card-default uk-padding-small uk-text-center">
+                <h3 class="uk-card-title uk-text-center">MONTOS</h3>
+				<a href="./dashboard/montos" class="uk-button uk-button-primary">ACCEDER</a>
             </div>
         </div>
         

@@ -52,17 +52,24 @@ class View
 		extract(self::$data);
 		include( self::INC_PATH . "head.php" );
 		include( self::VIEWS_PATH . $template . "." . self::EXTENSION_TEMPLATES );
-		echo "\t\t".'<script src="js/'.$ctrl.'/'.$ctrl.'.js"></script> <!--File js to controller '.$ctrl.'-->';
+		echo "\t\t".'<script src="js/'.$ctrl.'/'.$ctrl.'.js"></script> <!--File js to controller '.$ctrl.'-->' . "\n\n";
 		if($ctrl == "dashboard"){
-			echo '<script src="/js/dashboard/banners.js"></script>';
-			echo '<script src="/js/dashboard/ajustes.js"></script>';
-			echo '<script src="/js/dashboard/clients.js"></script>';
+			echo "\t\t" . '<script src="/js/dashboard/banners.js"></script>' . "\n\n";
+			echo "\t\t" . '<script src="/js/dashboard/ajustes.js"></script>' . "\n\n";
+			echo "\t\t" . '<script src="/js/dashboard/clients.js"></script>' . "\n\n";
+			echo "\t\t" . '<script src="/js/dashboard/montos.js"></script>' . "\n\n";
+		}
+		if($ctrl == "partner"){
+			echo "\t\t" . '<script src="/js/dashboard/partner.js"></script>' . "\n\n";
+		}
+		if($ctrl == "cupones"){
+			echo "\t\t" . '<script src="/js/dashboard/coupons.js"></script>' . "\n\n";
 		}
 		include( self::INC_PATH . "foot.php" );
 		$str = ob_get_contents();
 		ob_end_clean();
 		//Imprimi HTML minificado
-		echo TinyMinify::html($str);
+		echo $str;
 
 		return new self;
 
