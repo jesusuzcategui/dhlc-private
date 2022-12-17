@@ -12,8 +12,8 @@ class Config
 
 	const AppUrl  = [
 		"dev"   => "https://comprapin.test/",
-		"web"   => "https://dashboard.tarjetalocutorios.com/",
-		"sitio" => "https://dashboard.tarjetalocutorios.com/"
+		"web"   => "https://oldlc.tk/",
+		"sitio" => "https://oldlc.tk/"
 	];
 
 	const EmailSender = [
@@ -34,9 +34,9 @@ class Config
 	const AppDbRemote   = [
 
 		"HOST" => "localhost",
-		"USER" => "tarjetas_sistemalocutorios",
-		"PASS" => "LoCard1298_56",
-		"NAME" => "tarjetas_sistemalocutorios",
+		"USER" => "comprapin_old_copy",
+		"PASS" => "MjkfmpD6wwdh4mYC",
+		"NAME" => "comprapin_old_copy",
 		"TYPE" => "mysql",
 		"PORT" => 3306
 
@@ -46,7 +46,7 @@ class Config
 		"HOST" => "localhost",
 		"USER" => "root",
 		"PASS" => "",
-		"NAME" => "tarjetas_sistemalocutorios",
+		"NAME" => "comprapin_old_copy",
 		"TYPE" => "mysql",
 		"PORT" => 3306
 	];

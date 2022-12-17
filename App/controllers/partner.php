@@ -75,7 +75,8 @@ class partner extends Controller
             $data = [
                 "nombre" => $_POST['nombre'],
                 "estatus" => intval($_POST['estatus']),
-                "comentario" => $_POST['comentario']
+                "comentario" => $_POST['comentario'],
+                "bitly" => $_POST['bitly']
             ];
 
             $result = $this->model->updatePartner($data, $_GET['id']);
@@ -99,6 +100,18 @@ class partner extends Controller
                 $data = $this->model->find();
             } else {
                 $data = $this->model->find($_GET["id"]);
+            }
+    
+            echo json_encode($data);
+        } catch(\Exception $e){
+            echo json_encode(["error" => json_encode($e)]);
+        }
+    }
+    
+    public function getSales(){
+        try {
+            if( !empty($_GET["id"]) ){
+                $data = $this->model->getSales($_GET["id"]);
             }
     
             echo json_encode($data);

@@ -5,6 +5,8 @@ if( document.querySelector('#partner') ) {
             return {
                 tab: 'lista',
                 isEdit: false,
+                isSales: false,
+                sales: [],
                 reg: {
                     nombre: '',
                     comment: ''
@@ -13,12 +15,36 @@ if( document.querySelector('#partner') ) {
                     nombre: null,
                     comentario: null,
                     status: null,
-                    id: null
+                    id: null,
+                    bitly: null,
+                    serial: null
                 },
                 list: []
             }
         },
         methods: {
+            generateBitly: async function(){
+                const header = {
+                    'Content-Type': 'application/json', 
+                    'Authorization': 'Bearer e5e14cb2d95f858c4a45dc9f991533abbdb42f18'
+                };
+
+                const { status, data } = await axios.post('https://api-ssl.bitly.com/v4/bitlinks', {
+                    long_url: 'https://tarjetalocutorios.com?partner=' + this.edit.serial,
+                    domain: 'bit.ly'
+                }, {
+                    headers: header
+                });
+
+                if(200 != status){
+                    alert('Bitly a retornado un error.');
+                    return false;
+                }
+
+                this.edit.bitly = data.link;
+
+                window.toastr.success('Bitly creado, ahora actualizar');
+            },
             editPartner: async function(id){
                 this.isEdit = true;
                 this.edit.id = id;
@@ -29,15 +55,32 @@ if( document.querySelector('#partner') ) {
                         return false;
                     }
 
-                    const { estatus, nombre, comentario } = data[0];
+                    const { estatus, nombre, comentario, bitly, serial } = data[0];
 
                     this.edit.nombre = nombre;
                     this.edit.comentario = comentario;
                     this.edit.status = estatus;
+                    this.edit.bitly = bitly;
+                    this.edit.serial = serial;
                 } else {
                     throw Error(JSON.stringify(data));
                 }
                 setTimeout(() => UIkit.switcher("#switcher-nav").show(3), 500);
+            },
+            openSales: async function(id){
+                this.isSales = true;
+                const { status, data } = await axios.get('/partner/getSales?id=' + id);
+                if( status == 200 ){
+                    if( !Array.isArray(data) && data.length > 0 ){
+                        alert('error al editar');
+                        return false;
+                    }
+
+                    this.sales = data;
+                } else {
+                    throw Error(JSON.stringify(data));
+                }
+                setTimeout(() => UIkit.switcher("#switcher-nav").show(4), 500);
             },
             deletePartner: async function(id){
                 const confirma = confirm("Desea eliminar?");
@@ -77,6 +120,7 @@ if( document.querySelector('#partner') ) {
                 form.append("nombre", this.edit.nombre);
                 form.append("comentario", this.edit.comentario);
                 form.append("estatus", this.edit.status);
+                form.append("bitly", this.edit.bitly);
                 const header = {'Content-Type': 'multipart/form-data'};
                 const { status } = await axios.post('/partner/update?id=' + this.edit.id, form, { header });
                 if( status == 200 ){
@@ -97,6 +141,8 @@ if( document.querySelector('#partner') ) {
                     this.tab = v;
 
                     this.isEdit = false;
+                    this.isSales = false;
+                    this.sales = [];
                     this.edit = {
                         nombre: null,
                         comentario: null,

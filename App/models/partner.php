@@ -50,4 +50,12 @@ class partner {
             ]);
         }
     }
+
+    function getSales($id=null){
+        $query = "select vf.id, vf.correo, vf.correo_cliente, vf.cupon, vf.monto_venta, vf.cupon_porcentaje, us.email, vf.telefono, vf.inicio, vf.fin, tar.cod_targ,tar.pin, mn.monto as precio,vf.id_operacion,vf.fecha, es.id estado_id, es.estado, par.id as id_part, par.nombre as partner FROM ventas_frecuentes as vf inner join usuarios as us on id_usu=us.id inner join targetas as tar on id_targeta=tar.id inner join estado_targ as es on vf.estado=es.id inner join monto as mn on tar.precio=mn.id left join partner as par on par.serial = vf.partner where vf.id_estatus!=2 and par.id = '".$id."' order by vf.id desc";
+
+        $ventasR = $this->db->query($query)->fetchAll(PDO::FETCH_ASSOC);
+
+        return $ventasR;
+    }
 }

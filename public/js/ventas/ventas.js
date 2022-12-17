@@ -79,20 +79,37 @@ jQuery(document).ready(($)=>{
              width: '10%'
            } , {
              data: 'precio',
-             width: '10%'
+             width: '5%'
            } , {
              data: 'operacion',
-             width: '10%'
+             width: '5%'
            } , {
              data: 'estado',
-             width: '10%'
+             width: '5%'
            } , {
              data: 'fecha',
-             width: '10%'
+             width: '5%'
            }  , {
              data: 'final',
-             width: '10%'
-           } , {
+             width: '5%'
+           } ,
+           {
+             data: 'cupon',
+             width: '5%'
+           } , 
+           {
+             data: 'monto_venta',
+             width: '5%'
+           } , 
+           {
+             data: 'cupon_porcentaje',
+             width: '5%'
+           } , 
+           {
+             data: 'partner',
+             width: '5%'
+           } , 
+           {
              data: 'accion',
              width: '25%'
            }
@@ -490,7 +507,7 @@ jQuery(document).ready(($)=>{
        if(done.data == 1){
          toastr.success('Consulta éxitosa');
          let modal    = jQuery("#modal-sales-details");
-         let modalBox = modal.find('.uk-modal-dialog');
+         let modalBox = modal.find('.uk-offcanvas-bar');
              modalBox.find('.sale_estado').html(done.venta.estado);
              modalBox.find('.sale_precio').html('CLP '+done.venta.precio+'$');
              modalBox.find('.sale_order').html(done.venta.id_operacion);
@@ -503,7 +520,9 @@ jQuery(document).ready(($)=>{
              modalBox.find('.sale_type').html(done.venta.tipo_venta);
              modalBox.find('.sale_wmsg').html(done.venta.mensaje_webpay);
  
-             UIkit.modal(modal).show();
+             UIkit.offcanvas(modal, {
+              flip: true
+             }).show();
        } else if( done.data == 2){
          toastr.error('No se ha enviado ningun dato al servidor.');
        } else if(done.data == 3){
